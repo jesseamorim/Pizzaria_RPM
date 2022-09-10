@@ -14,7 +14,7 @@ saborP33 = ('3 - Frango com Catupiry (+ R$ 10,00)\n'
             '(Molho de Tomate - Mussarela - Frango Desfiado - Catupiry - Cebola)')
 saborP4 = 5
 saborP44 = ('4 - Calabresa (+ R$ 5,00)\n'
-            '(Molho de Tomate - Mussarela - Calabresa - Cebola)\n')
+            '(Molho de Tomate - Mussarela - Calabresa - Cebola)')
 saborP5 = 5
 saborP55 = ('5 - Marguerita (+ R$ 5,00)\n'
             '(Molho de Tomate - Mussarela - Tomate - Mangericão)\n')
@@ -50,6 +50,7 @@ elif saborPizza == 1:
             f'{saborP11} ')
       sabAtual += saborP11
       valAtual += saborP1
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 elif saborPizza == 2:
@@ -57,6 +58,7 @@ elif saborPizza == 2:
       print('Voce escolheu o sabor -->\n'
             f'{saborP22} ')
       valAtual += saborP2
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 elif saborPizza == 3:
@@ -64,6 +66,7 @@ elif saborPizza == 3:
       print('Voce escolheu o sabor -->\n'
             f'{saborP33} ')
       valAtual += saborP3
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 elif saborPizza == 4:
@@ -71,6 +74,7 @@ elif saborPizza == 4:
       print('Voce escolheu -->\n'
             f'{saborP44} ')
       valAtual += saborP4
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 elif saborPizza == 5:
@@ -78,6 +82,7 @@ elif saborPizza == 5:
       print('Voce escolheu o sabor -->\n'
             f'{saborP55} ')
       valAtual += saborP5
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 else:
@@ -87,7 +92,7 @@ else:
 
 # TAMANHO DA PIZZA
 print('-->Agora, qual é o tamanho da Pizza?<--')
-
+sleep(4)
 tamanhoPizza = int(input(f'{tamP11}\n'
                        f'\n{tamP22}\n'
                        f'\n{tamP33}\n'
@@ -103,6 +108,7 @@ elif tamanhoPizza == 1:
       print('Voce escolheu tamanho -->\n'
             f'{tamP11} ')
       valAtual += tamP1
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 elif tamanhoPizza == 2:
@@ -110,6 +116,7 @@ elif tamanhoPizza == 2:
       print('Voce escolheu tamanho -->\n'
             f'{tamP22} ')
       valAtual += tamP2
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 elif tamanhoPizza == 3:
@@ -117,6 +124,7 @@ elif tamanhoPizza == 3:
       print('Voce escolheu tamanho -->\n'
             f'{tamP33} ')
       valAtual += tamP3
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 elif tamanhoPizza == 4:
@@ -124,6 +132,7 @@ elif tamanhoPizza == 4:
       print('Voce escolheu tamanho -->\n'
             f'{tamP44} ')
       valAtual += tamP4
+      print(traço)
       print(f'Valor atual está: R$ {valAtual},00')
       print(traço)
 else:
